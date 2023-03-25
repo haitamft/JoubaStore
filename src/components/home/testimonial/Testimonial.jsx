@@ -8,7 +8,7 @@ export const Testimonial = () => {
   return (
     <>
       <section className='customer'>
-        <Heading  desc='Meet our newbies!' />
+        <Heading  title='Meet our newbies!' />
 
         <div className='content'>
           {customer.map((items) => (
